@@ -25,3 +25,5 @@
 3. 备份网卡硬件设置，输入 eeupdate /all /dump 将网卡的硬件配置存成.eep文件。（此方法适用于intel的82574、82573、I210等。）  
 4. 执行 eeupdate /nic=1 /mac=001122334455 命令， 将网卡的MAC修改为00-11-22-33-44-55(即是你需要写入的的mac地址)。  
 ![方法二如图](https://github.com/LCW0NJUPT/Udisk-DOS/blob/master/image/way2.jpg)  
+
+## 修改完之后，记得把BIOS调整回UEFI and Legacy模式，或者UEFI only模式

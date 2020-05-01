@@ -26,4 +26,7 @@
 4. 执行 eeupdate /nic=1 /mac=001122334455 命令， 将网卡的MAC修改为00-11-22-33-44-55(即是你需要写入的的mac地址)。  
 ![方法二如图](https://github.com/LCW0NJUPT/Udisk-DOS/blob/master/image/way2.jpg)  
 
-## 修改完之后，记得把BIOS调整回UEFI and Legacy模式，或者UEFI only模式
+## 修改完之后，记得把BIOS调整回UEFI and Legacy模式，或者UEFI only模式  
+## 此时最好进入PE测试一下实际联网效果，与此同时最好进入路由器或者其他网关设备查看此主板的实际MAC信息，确保无误。  
+
+##END
